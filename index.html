@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piano</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/img/icone.png">
+</head>
+
+<body>
+    <h1 class="titulo">~ Meu Piano ~</h1>
+    <div class="teclado">
+
+        <div class="oitava" o1>
+            <div data-key="keya" class="branca" c><b>A</b></div>
+            <div data-key="keyq" class="preta" cs><b>Q</b></div>
+            <div data-key="keys" class="branca" d><b>S</b></div>
+            <div data-key="keyw" class="preta" ds><b>W</b></div>
+            <div data-key="keyd" class="branca" e><b>D</b></div>
+            <div data-key="keyf" class="branca" f><b>F</b></div>
+            <div data-key="keye" class="preta" fs><b>E</b></div>
+            <div data-key="keyg" class="branca" g><b>G</b></div>
+            <div data-key="keyr" class="preta" gs><b>R</b></div>
+            <div data-key="keyh" class="branca" a><b>H</b></div>
+            <div data-key="keyt" class="preta" as><b>T</b></div>
+            <div data-key="keyj" class="branca" b><b>J</b></div>
+        </div>
+        <div class="oitava" o2>
+            <div data-key="keyk" class="branca" c><b>K</b></div>
+            <div data-key="keyy" class="preta" cs><b>Y</b></div>
+            <div data-key="keyl" class="branca" d><b>L</b></div>
+            <div data-key="keyu" class="preta" ds><b>U</b></div>
+            <div data-key="keyz" class="branca" e><b>Z</b></div>
+            <div data-key="keyx" class="branca" f><b>X</b></div>
+            <div data-key="keyi" class="preta" fs><b>I</b></div>
+            <div data-key="keyc" class="branca" g><b>C</b></div>
+            <div data-key="keyo" class="preta" gs><b>O</b></div>
+            <div data-key="keyv" class="branca" a><b>V</b></div>
+            <div data-key="keyp" class="preta" as><b>P</b></div>
+            <div data-key="keyb" class="branca" b><b>B</b></div>
+        </div>
+
+    </div>
+    <div class="composer">
+        <input type="text" id="input" placeholder="Faça uma composição..." />
+        <button>Tocar</button>
+    </div>
+    <footer>Gomess Produções - Todos os direitos reservados</footer>
+
+    <!-- Pretas -->
+    <audio id="s_keyq" class="selecionada" src="assets/sounds/keyq.wav"></audio>
+    <audio id="s_keyw" src="assets/sounds/keyw.wav"></audio>
+    <audio id="s_keye" src="assets/sounds/keye.wav"></audio>
+    <audio id="s_keyr" src="assets/sounds/keyr.wav"></audio>
+    <audio id="s_keyt" src="assets/sounds/keyt.wav"></audio>
+    <audio id="s_keyy" src="assets/sounds/keyy.wav"></audio>
+    <audio id="s_keyu" src="assets/sounds/keyu.wav"></audio>
+    <audio id="s_keyi" src="assets/sounds/keyi.wav"></audio>
+    <audio id="s_keyo" src="assets/sounds/keyo.wav"></audio>
+    <audio id="s_keyp" src="assets/sounds/keyp.wav"></audio>
+
+    <!-- Brancas -->
+    <audio id="s_keya" src="assets/sounds/keya.wav"></audio>
+    <audio id="s_keys" src="assets/sounds/keys.wav"></audio>
+    <audio id="s_keyd" src="assets/sounds/keyf.wav"></audio>
+    <audio id="s_keyf" src="assets/sounds/keyg.wav"></audio>
+    <audio id="s_keyg" src="assets/sounds/keyg.wav"></audio>
+    <audio id="s_keyh" src="assets/sounds/keyh.wav"></audio>
+    <audio id="s_keyj" src="assets/sounds/keyj.wav"></audio>
+    <audio id="s_keyk" src="assets/sounds/keyk.wav"></audio>
+    <audio id="s_keyl" src="assets/sounds/keyl.wav"></audio>
+    <audio id="s_keyz" src="assets/sounds/keyz.wav"></audio>
+    <audio id="s_keyx" src="assets/sounds/keyx.wav"></audio>
+    <audio id="s_keyc" src="assets/sounds/keyc.wav"></audio>
+    <audio id="s_keyv" src="assets/sounds/keyv.wav"></audio>
+    <audio id="s_keyb" src="assets/sounds/keyb.wav"></audio>
+
+    
+    <script src="assets/js/script.js"></script>
+   
+</body>
+
+</html>
